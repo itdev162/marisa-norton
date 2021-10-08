@@ -3,7 +3,11 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+<<<<<<< HEAD
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/API/obj/project.assets.json</ProjectAssetsFile>
+=======
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/API/obj/project.assets.json</ProjectAssetsFile>
+>>>>>>> a09b1b0fafb371bcf02944b5d7dcf58ffc9c2ac9
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/marisanorton/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/marisanorton/.nuget/packages/;/usr/local/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>

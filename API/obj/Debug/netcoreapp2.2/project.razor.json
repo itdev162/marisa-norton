@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "FilePath": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/API/API.csproj",
+=======
+  "FilePath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/API/API.csproj",
+>>>>>>> a09b1b0fafb371bcf02944b5d7dcf58ffc9c2ac9
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
