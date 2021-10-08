@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Domain/Domain.csproj",
+      "projectPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj",
       "packagesPath": "/Users/marisanorton/.nuget/packages/",
-      "outputPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Domain/obj/",
+      "outputPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
