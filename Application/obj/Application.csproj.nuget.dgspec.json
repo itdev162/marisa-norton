@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Application/Application.csproj": {}
+    "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Application/Application.csproj": {}
   },
   "projects": {
-    "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Application/Application.csproj": {
+    "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Application/Application.csproj",
+        "projectUniqueName": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Application/Application.csproj",
+        "projectPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Application/Application.csproj",
         "packagesPath": "/Users/marisanorton/.nuget/packages/",
-        "outputPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Application/obj/",
+        "outputPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Application/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
