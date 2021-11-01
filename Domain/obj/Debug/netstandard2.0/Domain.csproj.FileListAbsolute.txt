@@ -1,9 +1,0 @@
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/bin/Debug/netstandard2.0/Domain.deps.json
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/bin/Debug/netstandard2.0/Domain.dll
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/bin/Debug/netstandard2.0/Domain.pdb
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/obj/Debug/netstandard2.0/Domain.csprojAssemblyReference.cache
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/obj/Debug/netstandard2.0/Domain.csproj.CoreCompileInputs.cache
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfoInputs.cache
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfo.cs
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/obj/Debug/netstandard2.0/Domain.dll
-/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/obj/Debug/netstandard2.0/Domain.pdb
