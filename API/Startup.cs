@@ -30,7 +30,7 @@ namespace API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<DataContext>(opt =>
             {
-                opt.UseSqlite(Configuration.GetConnectionString("Default Connection"));
+                opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
             });
         }
 
