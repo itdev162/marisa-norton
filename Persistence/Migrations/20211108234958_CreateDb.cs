@@ -18,6 +18,21 @@ namespace Persistence.Migrations
                 {
                     table.PrimaryKey("PK_Values", x => x.Id);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Values",
+                columns: new[] { "Id", "Name" },
+                values: new object[] { 1, "Value1" });
+
+            migrationBuilder.InsertData(
+                table: "Values",
+                columns: new[] { "Id", "Name" },
+                values: new object[] { 2, "Value2" });
+
+            migrationBuilder.InsertData(
+                table: "Values",
+                columns: new[] { "Id", "Name" },
+                values: new object[] { 3, "Value3" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
