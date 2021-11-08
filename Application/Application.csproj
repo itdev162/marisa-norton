@@ -1,13 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-<<<<<<< HEAD
-=======
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\Persistence\Persistence.csproj" />
   </ItemGroup>
 
->>>>>>> a09b1b0fafb371bcf02944b5d7dcf58ffc9c2ac9
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>

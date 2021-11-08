@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Persistence/Persistence.csproj": {}
+    "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj": {}
   },
   "projects": {
-    "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Persistence/Persistence.csproj": {
+    "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Persistence/Persistence.csproj",
-        "projectName": "Persistence",
-        "projectPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Persistence/Persistence.csproj",
-        "packagesPath": "/Users/marisanorton/.nuget/packages/",
-        "outputPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/ITDEV162-Fall-2021/Persistence/obj/",
-=======
-    "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj": {}
-  },
-  "projects": {
-    "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj",
+        "projectPath": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj",
         "packagesPath": "/Users/marisanorton/.nuget/packages/",
-        "outputPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/obj/",
->>>>>>> a09b1b0fafb371bcf02944b5d7dcf58ffc9c2ac9
+        "outputPath": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -67,17 +53,15 @@
           "warn": true
         }
       }
-<<<<<<< HEAD
-=======
     },
-    "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj": {
+    "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj",
+        "projectUniqueName": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj",
+        "projectPath": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj",
         "packagesPath": "/Users/marisanorton/.nuget/packages/",
-        "outputPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Persistence/obj/",
+        "outputPath": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Persistence/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -94,8 +78,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj": {
-                "projectPath": "/Users/marisanorton/Desktop/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj"
+              "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj": {
+                "projectPath": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj"
               }
             }
           }
@@ -109,14 +93,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[2.2.6, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -131,7 +107,6 @@
           "warn": true
         }
       }
->>>>>>> a09b1b0fafb371bcf02944b5d7dcf58ffc9c2ac9
     }
   }
 }
