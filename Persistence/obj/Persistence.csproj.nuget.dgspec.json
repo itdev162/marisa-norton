@@ -4,6 +4,56 @@
     "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj": {}
   },
   "projects": {
+    "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj",
+        "packagesPath": "/Users/marisanorton/.nuget/packages/",
+        "outputPath": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/marisanorton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -20,15 +70,18 @@
           "/Users/marisanorton/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj": {
+                "projectPath": "/Users/marisanorton/Fall/ITDEV162/marisa-norton/Domain/Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,24 +91,20 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     }
