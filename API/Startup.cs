@@ -66,5 +66,5 @@ namespace API
             app.UseCors(CorsPolicy);
             app.UseMvc();
         }
-    } /**/
+    } /*updated 11/22*/
 }
