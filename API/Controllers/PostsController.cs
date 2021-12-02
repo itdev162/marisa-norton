@@ -1,9 +1,12 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Linq;
 using Application.Posts;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Persistence;
 
 namespace API.Controllers
 {
@@ -15,11 +18,24 @@ namespace API.Controllers
 
         private readonly IMediator mediator;
 
-        public PostsController(IMediator mediator) => this.mediator = mediator;
+        private readonly DataContext context;
 
+        
+
+        public PostsController(IMediator mediator, DataContext context) {
+            this.mediator = mediator;
+            this.context = context;
+        }
         public async Task<ActionResult<List<Post>>> List() 
         {
-            return await this.mediator.Send(new List.Query());
+            return this.context.Posts.ToList();
+        }
+
+        [HttpGet]
+
+        public ActionResult<Post> GetById(Guid id)
+        {
+            return this.context.Posts.Find(id);
         }
     }
 }
